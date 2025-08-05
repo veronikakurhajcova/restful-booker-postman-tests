@@ -2402,7 +2402,7 @@
 									"})\r",
 									"\r",
 									"pm.test(\"Response time is less than 900ms\", function() {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(900);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Token is present\", () => {\r",
